@@ -25,7 +25,6 @@ class HomeFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-
         binding.settingBtn.setOnClickListener {
             findNavController().navigate(R.id.action_nav_home_to_nav_setting2)
         }
